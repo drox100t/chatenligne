@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<!-- saved from url=(0039)https://ent.iledefrance.fr/auth/login#/ -->
+<html coupert-item="9AF8D9A4E502F3784AD24272D81F0381" desktop-device="" class="ng-scope portal-container">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <style type="text/css">
+        @charset "UTF-8";
+
+        [ng\:cloak],
+        [ng-cloak],
+        [data-ng-cloak],
+        [x-ng-cloak],
+        .ng-cloak,
+        .x-ng-cloak,
+        .ng-hide:not(.ng-hide-animate) {
+            display: none !important;
+        }
+
+        ng\:form {
+            display: block;
+        }
+
+        .ng-animate-shim {
+            visibility: hidden;
+        }
+
+        .ng-anchor {
+            position: absolute;
+        }
+    </style>
+    <title>Authentification</title>
+
+    <script type="text/javascript" src="/Authentification_files/ng-app.js" id="context"></script>
+    <script type="text/javascript" src="/Authentification_files/application.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <script type="text/javascript">var notLoggedIn = true;</script>
+    <style>
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 400;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Roboto-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 400;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Aileron-Regular.ttf);
+            unicode-range: U+41-5a;
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 400;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Aileron-Regular.ttf);
+            unicode-range: U+61-7a;
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 600;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Roboto-Medium.ttf);
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 600;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Aileron-Medium.ttf);
+            unicode-range: U+41-5a;
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 600;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Aileron-Medium.ttf);
+            unicode-range: U+61-7a;
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 700;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Roboto-Bold.ttf);
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 700;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Aileron-Bold.ttf);
+            unicode-range: U+41-5a;
+        }
+
+        @font-face {
+            font-family: 'Aileron';
+            font-weight: 700;
+            src: url(chrome-extension://pefhciejnkgdgoahgfeklebcbpmhnhhd/font/Aileron-Bold.ttf);
+            unicode-range: U+61-7a;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="/Authentification_files/theme.css" id="theme" crossorigin="anonymous">
+    <link rel="icon"
+        href="https://cdn-idf.opendigitaleducation.com/assets/themes/monlycee/img/illustrations/favicon.ico">
+    <style type="text/css">
+        .MathJax_Preview {
+            color: #888
+        }
+
+        #MathJax_Message {
+            position: fixed;
+            left: 1em;
+            bottom: 1.5em;
+            background-color: #E6E6E6;
+            border: 1px solid #959595;
+            margin: 0px;
+            padding: 2px 8px;
+            z-index: 102;
+            color: black;
+            font-size: 80%;
+            width: auto;
+            white-space: nowrap
+        }
+
+        #MathJax_MSIE_Frame {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 0px;
+            z-index: 101;
+            border: 0px;
+            margin: 0px;
+            padding: 0px
+        }
+
+        .MathJax_Error {
+            color: #CC0000;
+            font-style: italic
+        }
+    </style>
+    <style type="text/css">
+        #MathJax_About {
+            position: fixed;
+            left: 50%;
+            width: auto;
+            text-align: center;
+            border: 3px outset;
+            padding: 1em 2em;
+            background-color: #DDDDDD;
+            color: black;
+            cursor: default;
+            font-family: message-box;
+            font-size: 120%;
+            font-style: normal;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            z-index: 201;
+            border-radius: 15px;
+            -webkit-border-radius: 15px;
+            -moz-border-radius: 15px;
+            -khtml-border-radius: 15px;
+            box-shadow: 0px 10px 20px #808080;
+            -webkit-box-shadow: 0px 10px 20px #808080;
+            -moz-box-shadow: 0px 10px 20px #808080;
+            -khtml-box-shadow: 0px 10px 20px #808080;
+            filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+
+        .MathJax_Menu {
+            position: absolute;
+            background-color: white;
+            color: black;
+            width: auto;
+            padding: 2px;
+            border: 1px solid #CCCCCC;
+            margin: 0;
+            cursor: default;
+            font: menu;
+            text-align: left;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            z-index: 201;
+            box-shadow: 0px 10px 20px #808080;
+            -webkit-box-shadow: 0px 10px 20px #808080;
+            -moz-box-shadow: 0px 10px 20px #808080;
+            -khtml-box-shadow: 0px 10px 20px #808080;
+            filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+
+        .MathJax_MenuItem {
+            padding: 2px 2em;
+            background: transparent
+        }
+
+        .MathJax_MenuArrow {
+            position: absolute;
+            right: .5em;
+            color: #666666
+        }
+
+        .MathJax_MenuActive .MathJax_MenuArrow {
+            color: white
+        }
+
+        .MathJax_MenuArrow.RTL {
+            left: .5em;
+            right: auto
+        }
+
+        .MathJax_MenuCheck {
+            position: absolute;
+            left: .7em
+        }
+
+        .MathJax_MenuCheck.RTL {
+            right: .7em;
+            left: auto
+        }
+
+        .MathJax_MenuRadioCheck {
+            position: absolute;
+            left: 1em
+        }
+
+        .MathJax_MenuRadioCheck.RTL {
+            right: 1em;
+            left: auto
+        }
+
+        .MathJax_MenuLabel {
+            padding: 2px 2em 4px 1.33em;
+            font-style: italic
+        }
+
+        .MathJax_MenuRule {
+            border-top: 1px solid #CCCCCC;
+            margin: 4px 1px 0px
+        }
+
+        .MathJax_MenuDisabled {
+            color: GrayText
+        }
+
+        .MathJax_MenuActive {
+            background-color: Highlight;
+            color: HighlightText
+        }
+
+        .MathJax_Menu_Close {
+            position: absolute;
+            width: 31px;
+            height: 31px;
+            top: -15px;
+            left: -15px
+        }
+    </style>
+    <style type="text/css">
+        #MathJax_Zoom {
+            position: absolute;
+            background-color: #F0F0F0;
+            overflow: auto;
+            display: block;
+            z-index: 301;
+            padding: .5em;
+            border: 1px solid black;
+            margin: 0;
+            font-weight: normal;
+            font-style: normal;
+            text-align: left;
+            text-indent: 0;
+            text-transform: none;
+            line-height: normal;
+            letter-spacing: normal;
+            word-spacing: normal;
+            word-wrap: normal;
+            white-space: nowrap;
+            float: none;
+            box-shadow: 5px 5px 15px #AAAAAA;
+            -webkit-box-shadow: 5px 5px 15px #AAAAAA;
+            -moz-box-shadow: 5px 5px 15px #AAAAAA;
+            -khtml-box-shadow: 5px 5px 15px #AAAAAA;
+            filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')
+        }
+
+        #MathJax_ZoomOverlay {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 300;
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            opacity: 0;
+            filter: alpha(opacity=0)
+        }
+
+        #MathJax_ZoomFrame {
+            position: relative;
+            display: inline-block;
+            height: 0;
+            width: 0
+        }
+
+        #MathJax_ZoomEventTrap {
+            position: absolute;
+            left: 0;
+            top: 0;
+            z-index: 302;
+            display: inline-block;
+            border: 0;
+            padding: 0;
+            margin: 0;
+            background-color: white;
+            opacity: 0;
+            filter: alpha(opacity=0)
+        }
+    </style>
+</head>
+
+<body class="login ng-scope" ng-controller="LoginController"
+    ng-init="error = &quot;&quot;; callBack = &quot;&quot;; mainPage = &quot;&quot;" style="">
+    <div id="MathJax_Message" style="display: none;"></div>
+    <default-styles>
+        <div class="absolute">
+            <!-- ngInclude: template.containers.main -->
+            <div ng-include="template.containers.main" class="ng-scope">
+                <div class="centered container row ng-scope">
+                    <section class="main">
+                        <div class="login panel"
+                            ng-class="{&#39;browser-container&#39;: !browser || (browser &amp;&amp; browser.outdated) || !cookieEnabled}">
+                            <img class="logo absolute" src="./Authentification_files/logo.png" alt="Logo de l&#39;ENT">
+                            <!-- ngIf: !cookieEnabled -->
+
+                            <!-- ngIf: !browser -->
+
+                            <!-- ngIf: browser && browser.outdated -->
+                            <h1>
+                                <i18n><span class="no-style ng-scope">Connexion</span></i18n>
+                            </h1>
+                            <!-- ngIf: error -->
+                            <div class="rigid-grid panels-container">
+                                <!-- ngIf: !welcome.hideContent -->
+                                <div class="welcome-text ng-scope" ng-if="!welcome.hideContent">
+                                    <div class="row">
+                                        <div class="twelve cell ng-isolate-scope" bind-html="welcome.content">
+                                            <div class="ng-scope">
+                                                <div class="ng-scope"></div>
+                                                <div class="ng-scope">
+                                                    <div class="ng-scope">
+                                                        <p style="text-align: center; color: rgb(135, 176, 247);"><span
+                                                                style="font-weight: normal; color: rgb(135, 176, 247); font-family: Arial; font-size: 20px; line-height: 20px;">Bienvenue
+                                                                dans le réseau social éducatif d'Île-de-France !</span>
+                                                        </p>
+                                                        <p><span
+                                                                style="font-weight: 400; color: rgb(0, 0, 0); font-family: Arial; font-size: 16px; line-height: 16px;">MonLycée.net
+                                                                est simple et facile d'utilisation, il permet de
+                                                                renforcer les activités de la classe, de faciliter les
+                                                                échanges entre le lycée et les familles, et de mettre en
+                                                                œuvre des projets pédagogiques en commun.
+                                                                <br><br>
+
+                                                                ​Développé en partenariat avec des enseignants,
+                                                                Monlycée.net est financé par la Région Île-de-France.
+                                                                Il respecte le cadre réglementaire et sécurité défini
+                                                                par l'Éducation nationale. Cet espace partagé est
+                                                                uniquement accessible à la communauté éducative des
+                                                                lycées franciliens, à l'aide d'un identifiant et d'un
+                                                                mot de passe unique pour chaque
+                                                                utilisateur.</span></p>
+                                                        <p><span
+                                                                style="font-weight: 400; color: rgb(0, 0, 0); font-family: Arial; font-size: 16px; line-height: 16px;"><span
+                                                                    style="color: rgb(94, 150, 247);">​</span><span>​Bonne
+                                                                    navigation !</span></span></p>
+                                                        <div style="text-align: right;"><span
+                                                                style="font-weight: 400; color: rgb(0, 0, 0); font-family: Arial; font-size: 16px; line-height: 16px;">​<span
+                                                                    style="font-style: italic; font-size: 14px; line-height: 14px;"><a
+                                                                        href="https://ent.iledefrance.fr/assets/themes/monlycee/img/Charte.pdf"
+                                                                        target="_blank">Charte d'utilisation
+                                                                        MonLycée.net</a></span></span><span>​</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ng-scope">
+                                                        <div class="ng-scope">
+                                                            <p class="ng-scope" style="text-align: justify;"><span
+                                                                    class="ng-scope">
+                                                                </span>
+                                                            </p>
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- end ngIf: !welcome.hideContent -->
+                                <form method="post" action="https://ent.iledefrance.fr/auth/login"
+                                    class="ng-pristine ng-valid">
+                                    <p>
+                                        <label>
+                                            <i18n><span class="no-style ng-scope">Identifiant</span></i18n>
+                                        </label>
+                                        <input type="text" ng-model="user.email" ng-keydown="noSpace($event)"
+                                            ng-change="noUpperCase()" name="email" id="email" autofocus="" tabindex="1"
+                                            class="ng-pristine ng-valid ng-empty ng-touched">
+                                    </p>
+                                    <p>
+                                        <label>
+                                            <i18n><span class="no-style ng-scope">Mot de passe</span></i18n>
+                                        </label>
+                                        <input-password
+                                            class="ng-pristine ng-untouched ng-valid toggleable-password ng-scope ng-empty"><input
+                                                type="password" autocomplete="off" ng-model="user.password"
+                                                name="password" id="password" tabindex="2"
+                                                class="ng-pristine ng-untouched ng-valid ng-empty"><button type="button"
+                                                ng-class="{ pushed: toggle }"
+                                                ng-click="show(!toggle)"></button></input-password>
+                                    </p>
+                                    <label>
+                                        <input type="checkbox" ng-model="user.rememberMe" name="rememberMe"
+                                            id="rememberMe" value="true"
+                                            class="ng-pristine ng-untouched ng-valid ng-empty">&nbsp;&nbsp;<small
+                                            translate="" content="auth.remember.me"><span class="no-style ng-scope">Se
+                                                souvenir de moi</span></small>
+                                    </label>
+                                    <p></p>
+                                    <input type="hidden" name="callBack" ng-value="callBack" autocomplete="off"
+                                        value="">
+                                    <input type="hidden" name="details" ng-value="details" autocomplete="off">
+                                    <div class="flex-magnet-container">
+                                        <div class="cell">
+                                            <a class="forgot-link"
+                                                href="https://ent.iledefrance.fr/auth/forgot#/id"><small>
+                                                    <i18n><span class="no-style ng-scope">Identifiant oublié</span>
+                                                    </i18n>
+                                                </small></a>
+                                            <a class="forgot-link"
+                                                href="https://ent.iledefrance.fr/auth/forgot#/password"><small>
+                                                    <i18n><span class="no-style ng-scope">Mot de passe oublié</span>
+                                                    </i18n>
+                                                </small></a>
+                                        </div>
+                                        <button tabindex="3" class="flex-magnet-bottom-right">
+                                            <i18n><span class="no-style ng-scope">Connexion</span></i18n>
+                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </default-styles>
+
+
+    <div id="d6f20755-13bc-4660-8692-f5602a599117" style="display: block !important; z-index: 2147483647 !important;">
+        <template shadowrootmode="closed">
+            <div
+                style="color: initial; font: initial; font-palette: initial; font-synthesis: initial; forced-color-adjust: initial; text-orientation: initial; text-rendering: initial; -webkit-font-smoothing: initial; -webkit-locale: initial; -webkit-text-orientation: initial; -webkit-writing-mode: initial; writing-mode: initial; zoom: initial; accent-color: initial; place-content: initial; place-items: initial; place-self: initial; alignment-baseline: initial; animation-composition: initial; animation: initial; app-region: initial; appearance: initial; aspect-ratio: initial; backdrop-filter: initial; backface-visibility: initial; background: initial; background-blend-mode: initial; baseline-shift: initial; baseline-source: initial; block-size: initial; border-block: initial; border: initial; border-radius: initial; border-collapse: initial; border-end-end-radius: initial; border-end-start-radius: initial; border-inline: initial; border-start-end-radius: initial; border-start-start-radius: initial; inset: initial; box-shadow: initial; box-sizing: initial; break-after: initial; break-before: initial; break-inside: initial; buffered-rendering: initial; caption-side: initial; caret-color: initial; clear: initial; clip: initial; clip-path: initial; clip-rule: initial; color-interpolation: initial; color-interpolation-filters: initial; color-rendering: initial; color-scheme: initial; columns: initial; column-fill: initial; gap: initial; column-rule: initial; column-span: initial; contain: initial; contain-intrinsic-block-size: initial; contain-intrinsic-size: initial; contain-intrinsic-inline-size: initial; container: initial; content: initial; content-visibility: initial; counter-increment: initial; counter-reset: initial; counter-set: initial; cursor: initial; cx: initial; cy: initial; d: initial; display: initial; dominant-baseline: initial; empty-cells: initial; fill: initial; fill-opacity: initial; fill-rule: initial; filter: initial; flex: initial; flex-flow: initial; float: initial; flood-color: initial; flood-opacity: initial; grid: initial; grid-area: initial; height: initial; hyphenate-character: initial; hyphenate-limit-chars: initial; hyphens: initial; image-orientation: initial; image-rendering: initial; initial-letter: initial; inline-size: initial; inset-block: initial; inset-inline: initial; isolation: initial; letter-spacing: initial; lighting-color: initial; line-break: initial; list-style: initial; margin-block: initial; margin: initial; margin-inline: initial; marker: initial; mask: initial; mask-type: initial; math-depth: initial; math-shift: initial; math-style: initial; max-block-size: initial; max-height: initial; max-inline-size: initial; max-width: initial; min-block-size: initial; min-height: initial; min-inline-size: initial; min-width: initial; mix-blend-mode: initial; object-fit: initial; object-position: initial; object-view-box: initial; offset: initial; opacity: initial; order: initial; orphans: initial; outline: initial; outline-offset: initial; overflow-anchor: initial; overflow-clip-margin: initial; overflow-wrap: initial; overflow: initial; overscroll-behavior-block: initial; overscroll-behavior-inline: initial; overscroll-behavior: initial; padding-block: initial; padding: initial; padding-inline: initial; page: initial; page-orientation: initial; paint-order: initial; perspective: initial; perspective-origin: initial; pointer-events: initial; position: initial; quotes: initial; r: initial; resize: initial; rotate: initial; ruby-position: initial; rx: initial; ry: initial; scale: initial; scroll-behavior: initial; scroll-margin-block: initial; scroll-margin: initial; scroll-margin-inline: initial; scroll-padding-block: initial; scroll-padding: initial; scroll-padding-inline: initial; scroll-snap-align: initial; scroll-snap-stop: initial; scroll-snap-type: initial; scrollbar-gutter: initial; shape-image-threshold: initial; shape-margin: initial; shape-outside: initial; shape-rendering: initial; size: initial; speak: initial; stop-color: initial; stop-opacity: initial; stroke: initial; stroke-dasharray: initial; stroke-dashoffset: initial; stroke-linecap: initial; stroke-linejoin: initial; stroke-miterlimit: initial; stroke-opacity: initial; stroke-width: initial; tab-size: initial; table-layout: initial; text-align: initial; text-align-last: initial; text-anchor: initial; text-combine-upright: initial; text-decoration: initial; text-decoration-skip-ink: initial; text-emphasis: initial; text-emphasis-position: initial; text-indent: initial; text-overflow: initial; text-shadow: initial; text-size-adjust: initial; text-transform: initial; text-underline-offset: initial; text-underline-position: initial; white-space: initial; touch-action: initial; transform: initial; transform-box: initial; transform-origin: initial; transform-style: initial; transition: width 0.4s ease 0s; translate: initial; user-select: initial; vector-effect: initial; vertical-align: initial; view-transition-name: initial; visibility: initial; border-spacing: initial; -webkit-box-align: initial; -webkit-box-decoration-break: initial; -webkit-box-direction: initial; -webkit-box-flex: initial; -webkit-box-ordinal-group: initial; -webkit-box-orient: initial; -webkit-box-pack: initial; -webkit-box-reflect: initial; -webkit-highlight: initial; -webkit-line-break: initial; -webkit-line-clamp: initial; -webkit-mask-box-image: initial; -webkit-mask: initial; -webkit-mask-composite: initial; -webkit-print-color-adjust: initial; -webkit-rtl-ordering: initial; -webkit-ruby-position: initial; -webkit-tap-highlight-color: initial; -webkit-text-combine: initial; -webkit-text-decorations-in-effect: initial; -webkit-text-fill-color: initial; -webkit-text-security: initial; -webkit-text-stroke: initial; -webkit-user-drag: initial; -webkit-user-modify: initial; widows: initial; width: initial; will-change: initial; word-break: initial; word-spacing: initial; x: initial; y: initial; z-index: 2147483647;">
+            </div>
+        </template></div>
+    <div style="display: none;"></div>
+</body>
+
+</html>
